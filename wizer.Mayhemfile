@@ -8,4 +8,4 @@ target: fuzz-wizer
 cmds:
     # Command used to start the target, "@@" is the input file
     # (when "@@" is omitted Mayhem defaults to stdin inputs)
-  - cmd: /fuzz_wizer
+    - cmd: /fuzz_wizer
